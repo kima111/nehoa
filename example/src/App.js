@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'nehoa'
+import { ExampleComponent, FadeOn } from 'nehoa'
 import 'nehoa/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <FadeOn duration='3s' style={{fontSize: '5em'}}>Hello World</FadeOn>
 }
 
 export default App
