@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './styles.module.css'
 import FadeOnComponent from './components/FadeOn/index'
+import FadeOnUpComponent from './components/FadeOnUp/index'
 
 export const ExampleComponent = ({ text }) => {
   return <div className={styles.test}>Example Component: {text}</div>
@@ -8,4 +9,8 @@ export const ExampleComponent = ({ text }) => {
 
 export const FadeOn = (props) => {
   return <FadeOnComponent {...props}>{props.children}</FadeOnComponent>
+}
+
+export const FadeOnUp = (props) => {
+  return <FadeOnUpComponent {...props}>{props.children}</FadeOnUpComponent>
 }

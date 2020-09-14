@@ -28,6 +28,22 @@ const App = () => {
 }
 ```
 
+### FadeOnUp 
+
+The FadeOnUp Component allows for a custom duration on fade and up onto the screen. 
+
+![image info](./images/FadeOnUp.gif)
+
+```jsx
+import React, { Component } from 'react'
+
+import {FadeOnUp} from 'nehoa'
+
+const App = () => {
+  return <FadeOnUp duration='3s' style={{fontSize: '5em'}}>Hello World</FadeOnUp>
+}
+```
+
 ## License
 
 MIT © [kima111](https://github.com/kima111)
