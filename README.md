@@ -1,6 +1,6 @@
 # nehoa
 
-> Made with create-react-library
+> Text Animations
 
 [![NPM](https://img.shields.io/npm/v/nehoa.svg)](https://www.npmjs.com/package/nehoa) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
