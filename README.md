@@ -12,16 +12,19 @@ npm install --save nehoa
 
 ## Usage
 
+### FadeOn 
+
+The FadeOn Component allows for a custom duration on fade onto the screen. 
+
+![image info](./images/FadeOn.gif)
+
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'nehoa'
-import 'nehoa/dist/index.css'
+import {FadeOn} from 'nehoa'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return <FadeOn duration='3s' style={{fontSize: '5em'}}>Hello World</FadeOn>
 }
 ```
 

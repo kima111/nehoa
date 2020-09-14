@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ExampleComponent, FadeOn } from 'nehoa'
+import { FadeOn } from 'nehoa'
 import 'nehoa/dist/index.css'
 
 const App = () => {
