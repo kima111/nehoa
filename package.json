@@ -1,7 +1,7 @@
 {
   "name": "nehoa",
-  "version": "1.10.1",
-  "description": "Made with create-react-library",
+  "version": "1.10.2",
+  "description": "UI Library for React",
   "author": "kima111",
   "license": "MIT",
   "repository": "kima111/nehoa",
