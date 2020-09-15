@@ -28,6 +28,22 @@ const App = () => {
 }
 ```
 
+### FadeOut 
+
+The FadeOut Component allows for a custom duration on fading out the screen. 
+
+![image info](./images/FadeOut.gif)
+
+```jsx
+import React, { Component } from 'react'
+
+import {FadeOut} from 'nehoa'
+
+const App = () => {
+  return <FadeOut duration='3s' style={{fontSize: '5em'}}>Hello World</FadeOut>
+}
+```
+
 ### FadeOnUp 
 
 The FadeOnUp Component allows for a custom duration on fade and up onto the screen. 
