@@ -14,7 +14,7 @@ export default function index(props) {
   const FadeOnUp = styled.div`
     opacity: 0;
     display: inline-block;
-    animation: ${FadeInUp} linear forwards;
+    animation: ${FadeInUp} ease-out forwards;
     animation-duration: ${(props) => props.duration};
     animation-delay: ${(props) => props.delay};
   `
