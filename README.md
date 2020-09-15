@@ -14,7 +14,7 @@ npm install --save nehoa
 
 ### FadeOn 
 
-The FadeOn Component allows for a custom duration on fade onto the screen. 
+The FadeOn Component allows for a custom duration or delay on fade onto the screen. 
 
 ![image info](./images/FadeOn.gif)
 
@@ -24,13 +24,13 @@ import React, { Component } from 'react'
 import {FadeOn} from 'nehoa'
 
 const App = () => {
-  return <FadeOn duration='3s' style={{fontSize: '5em'}}>Hello World</FadeOn>
+  return <FadeOn duration='3s' delay='3s' style={{fontSize: '5em'}}>Hello World</FadeOn>
 }
 ```
 
 ### FadeOut 
 
-The FadeOut Component allows for a custom duration on fading out the screen. 
+The FadeOut Component allows for a custom duration or delay on fading out the screen. 
 
 ![image info](./images/FadeOut.gif)
 
@@ -40,13 +40,13 @@ import React, { Component } from 'react'
 import {FadeOut} from 'nehoa'
 
 const App = () => {
-  return <FadeOut duration='3s' style={{fontSize: '5em'}}>Hello World</FadeOut>
+  return <FadeOut duration='3s' delay='3s' style={{fontSize: '5em'}}>Hello World</FadeOut>
 }
 ```
 
 ### FadeOnUp 
 
-The FadeOnUp Component allows for a custom duration on fade and up onto the screen. 
+The FadeOnUp Component allows for a custom duration or delay on fade and up onto the screen. 
 
 ![image info](./images/FadeOnUp.gif)
 
@@ -56,13 +56,13 @@ import React, { Component } from 'react'
 import {FadeOnUp} from 'nehoa'
 
 const App = () => {
-  return <FadeOnUp duration='3s' style={{fontSize: '5em'}}>Hello World</FadeOnUp>
+  return <FadeOnUp duration='3s' delay='3s' style={{fontSize: '5em'}}>Hello World</FadeOnUp>
 }
 ```
 
 ### FadeOnDown
 
-The FadeOnDown Component allows for a custom duration on fade and down onto the screen. 
+The FadeOnDown Component allows for a custom duration or delay on fade and down onto the screen. 
 
 ![image info](./images/FadeOnDown.gif)
 
@@ -72,7 +72,7 @@ import React, { Component } from 'react'
 import {FadeOnDown} from 'nehoa'
 
 const App = () => {
-  return <FadeOnDown duration='3s' style={{fontSize: '5em'}}>Hello World</FadeOnDown>
+  return <FadeOnDown duration='3s' delay='3s' style={{fontSize: '5em'}}>Hello World</FadeOnDown>
 }
 ```
 

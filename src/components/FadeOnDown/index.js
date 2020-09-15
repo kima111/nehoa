@@ -12,9 +12,11 @@ export default function index(props) {
   }
 `
   const FadeOnDown = styled.div`
+    opacity: 0;
     display: inline-block;
-    animation: ${FadeInDown} linear;
+    animation: ${FadeInDown} linear forwards;
     animation-duration: ${(props) => props.duration};
+    animation-delay: ${(props) => props.delay};
   `
   return <FadeOnDown {...props}>{props.children}</FadeOnDown>
 }

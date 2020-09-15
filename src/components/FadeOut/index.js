@@ -13,6 +13,7 @@ export default function index(props) {
     display: inline-block;
     animation: ${FadeOutStyle} linear forwards;
     animation-duration: ${(props) => props.duration};
+    animation-delay: ${(props) => props.delay};
   `
   return <FadeOut {...props}>{props.children}</FadeOut>
 }

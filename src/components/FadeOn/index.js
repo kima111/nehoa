@@ -10,9 +10,11 @@ export default function index(props) {
   }
 `
   const FadeOn = styled.div`
+    opacity: 0;
     display: inline-block;
-    animation: ${FadeIn} linear;
+    animation: ${FadeIn} linear forwards;
     animation-duration: ${(props) => props.duration};
+    animation-delay: ${(props) => props.delay};
   `
   return <FadeOn {...props}>{props.children}</FadeOn>
 }
