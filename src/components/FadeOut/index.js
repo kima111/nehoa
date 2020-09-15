@@ -11,7 +11,7 @@ export default function index(props) {
 `
   const FadeOut = styled.div`
     display: inline-block;
-    animation: ${FadeOutStyle} linear;
+    animation: ${FadeOutStyle} linear forwards;
     animation-duration: ${(props) => props.duration};
   `
   return <FadeOut {...props}>{props.children}</FadeOut>

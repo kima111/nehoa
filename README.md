@@ -60,6 +60,22 @@ const App = () => {
 }
 ```
 
+### FadeOnDown
+
+The FadeOnDown Component allows for a custom duration on fade and down onto the screen. 
+
+![image info](./images/FadeOnDown.gif)
+
+```jsx
+import React, { Component } from 'react'
+
+import {FadeOnDown} from 'nehoa'
+
+const App = () => {
+  return <FadeOnDown duration='3s' style={{fontSize: '5em'}}>Hello World</FadeOnDown>
+}
+```
+
 ## License
 
 MIT © [kima111](https://github.com/kima111)
