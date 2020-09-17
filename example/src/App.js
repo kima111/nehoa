@@ -13,6 +13,9 @@ const App = () => {
   <br />
   <FadeOnUp duration='3s'delay='3s' style={{fontSize: '2em'}}>Hello World</FadeOnUp>
   <br />
+  <br />
+  <br />
+  <br />
   <FadeOnUpChar text='Hello World' style={{fontSize: '2em'}} />
   </>)
 }
