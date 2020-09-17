@@ -12,6 +12,22 @@ npm install --save nehoa
 
 ## Usage
 
+### FadeOnUpChar
+
+The FadeOnUpChar Component allows for text to be faded up onto screen, and allows custom styling. 
+
+![image info](./images/FadeOnUpChar.gif)
+
+```jsx
+import React, { Component } from 'react'
+
+import {FadeOnUpChar} from 'nehoa'
+
+const App = () => {
+  return <FadeOnUpChar text='Hello World' style={{fontSize: '2em'}} />
+}
+```
+
 ### FadeOn 
 
 The FadeOn Component allows for a custom duration or delay on fade onto the screen. 
