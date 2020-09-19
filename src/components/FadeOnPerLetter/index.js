@@ -41,7 +41,6 @@ export default function index(props) {
             delay={getRandomDelay() + 'ms'}
           >
             <span>{item}</span>
-            {console.log(item)}
           </FadeOnUp>
         )
       )}
