@@ -27,6 +27,21 @@ const App = () => {
   return <FadeOnUpChar text='Hello World' style={{fontSize: '2em'}} />
 }
 ```
+### FadeOnDownChar
+
+The FadeOnUpChar Component allows for text to be faded up onto screen, and allows custom styling. 
+
+![image info](./images/FadeOnDownChar.gif)
+
+```jsx
+import React, { Component } from 'react'
+
+import {FadeOnDownChar} from 'nehoa'
+
+const App = () => {
+  return <FadeOnDownChar text='Hello World' style={{fontSize: '2em'}} />
+}
+```
 
 ### FadeOn 
 
