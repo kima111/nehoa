@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { FadeOn, FadeOnUp, FadeOut, FadeOnDown, FadeOnUpChar } from 'nehoa'
+import { FadeOn, FadeOnUp, FadeOut, FadeOnDown, FadeOnUpChar, FadeOnDownChar } from 'nehoa'
 import 'nehoa/dist/index.css'
 
 const App = () => {
@@ -17,6 +17,11 @@ const App = () => {
   <br />
   <br />
   <FadeOnUpChar text='Hello World' style={{fontSize: '2em'}} />
+  <br />
+  <br />
+  <br />
+  <br />
+  <FadeOnDownChar text='Hello World' style={{fontSize: '2em'}}/>
   </>)
 }
 

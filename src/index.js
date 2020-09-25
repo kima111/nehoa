@@ -5,6 +5,7 @@ import FadeOnUpComponent from './components/FadeOnUp/index'
 import FadeOutComponent from './components/FadeOut/index'
 import FadeOnDownComponent from './components/FadeOnDown/index'
 import FadeOnUpCharComponent from './components/FadeOnPerLetter'
+import FadeOnDownCharComponent from './components/FadeDownPerLetter'
 
 export const ExampleComponent = ({ text }) => {
   return <div className={styles.test}>Example Component: {text}</div>
@@ -28,8 +29,12 @@ export const FadeOut = (props) => {
 
 export const FadeOnUpChar = (props) => {
   return (
-    <FadeOnUpCharComponent {...props}>
-      {props.children}
-    </FadeOnUpCharComponent>
+    <FadeOnUpCharComponent {...props}>{props.children}</FadeOnUpCharComponent>
+  )
+}
+
+export const FadeOnDownChar = (props) => {
+  return (
+    <FadeOnDownCharComponent {...props}>{props.children}</FadeOnDownCharComponent>
   )
 }
