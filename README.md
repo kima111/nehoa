@@ -1,13 +1,3 @@
----
-title: "Nehoa"
-author: "kima111"
-date: "Date"
-output: 
-  html_document:
-     css: ../md.css
-     self_contained: no
-
----
 <link rel="stylesheet" href="md.css">
 # Nehoa
 
