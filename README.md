@@ -8,7 +8,7 @@
 ## Description
 
 **Nehoa** (nĕ-hō'-a), v.
-Is a Hawaiian word that means to be strong; to be able; to be bold. Like the name and the state, this is a React Library consisting of bold, useful, and beautiful tools/effects to help you create a stunning site. Currently this is just the begining, and the component library just consists of text effects for now, but more is on the way. As this is a React library, a peer dependency is React. In addition this library has a dependency on Styled Components. 
+:desert_island: Is a Hawaiian word that means to be strong; to be able; to be bold. Like the name and the state, this is a React Library consisting of bold, useful, and beautiful tools/effects to help you create a stunning site. Currently this is just the begining, and the component library just consists of text effects for now, but more is on the way. As this is a React library, a peer dependency is React. In addition this library has a dependency on Styled Components. 
 
 ## Install
 
