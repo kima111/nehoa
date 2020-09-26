@@ -15,7 +15,7 @@ npm install --save nehoa
 
 | Title | Description | Import | Usage | Example |
 |-------------|-------------|--------|-------|---------|
-|FadeOnUpChar|The FadeOnUpChar Component allows for text to be faded up onto screen, and allows custom styling.|`import {FadeOnUpChar} from 'nehoa'`|`<FadeOnUpChar text='Hello World' style={{fontSize: '2em'}} />`|![image info](./images/FadeOnUpChar.gif)|
+|FadeOnUpChar|The FadeOnUpChar Component allows for text to be faded up onto screen, and allows custom styling.|`import {FadeOnUpChar} from 'nehoa'`|`<FadeOnUpChar text='Hello World' style={{fontSize: '2em'}} />`|<img src='./images/FadeOnUpChar.gif' width='500px'/>|
 |FadeOnDownChar|The FadeOnDownChar Component allows for text to be faded down onto screen, and allows custom styling. |`import {FadeOnDownChar} from 'nehoa'`|`<FadeOnDownChar text='Hello World' style={{fontSize: '2em'}}/>`|![image info](./images/FadeOnDownChar.gif)|
 |FadeOn|The FadeOn Component allows for a custom duration or delay on fade onto the screen.|`import {FadeOn} from 'nehoa'`|`<FadeOn duration='3s' delay='3s' style={{fontSize: '2em'}}>Hello World</FadeOn>`|![image info](./images/FadeOn.gif)|
 |FadeOut|The FadeOut Component allows for a custom duration or delay on fading out the screen.|`import {FadeOut} from 'nehoa'`|`<FadeOut duration='3s' delay='3s' style={{fontSize: '2em'}}>Hello World</FadeOut>`|![image info](./images/FadeOut.gif)|
