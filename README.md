@@ -27,7 +27,6 @@ npm install --save nehoa
 ```
 
 ## Text Effects
-<hr/>
 
 | Title | Description | Import | Usage | Example |
 |-------------|-------------|--------|-------|---------|
